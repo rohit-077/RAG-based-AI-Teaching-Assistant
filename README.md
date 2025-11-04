@@ -1,4 +1,4 @@
-# Machine Learning Tutorial RAG Project
+# RAG-based-AI-Teaching-Assistant
 
 ## Overview
 This project is basically a small end-to-end RAG (Retrieval-Augmented Generation) pipeline built around video tutorials on Machine Learning.  
