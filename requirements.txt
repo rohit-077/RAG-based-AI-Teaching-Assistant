@@ -1,0 +1,15 @@
+# Core dependencies
+requests
+pandas
+joblib
+numpy
+scikit-learn
+
+# For speech-to-text (Whisper)
+openai-whisper
+
+# Optional: only needed if you plan to handle video/audio operations manually
+ffmpeg-python
+
+# In case json or pathlib issues occur (standard in Python, but listed for clarity)
+pathlib
