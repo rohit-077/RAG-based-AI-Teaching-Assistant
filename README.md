@@ -1,8 +1,7 @@
 # RAG-based-AI-Teaching-Assistant
 
 ## Overview
-This project is basically a small end-to-end RAG (Retrieval-Augmented Generation) pipeline built around video tutorials on Machine Learning.  
-The idea is simple — take a bunch of tutorial videos, extract the audio, convert them into text, create embeddings, and then let an LLM answer questions related to those tutorials.  
+This project is an end-to-end Retrieval-Augmented Generation (RAG) pipeline that transforms any videos into a queryable knowledge base. It combines Automatic Speech Recognition (ASR) for audio transcription, text chunking, semantic embedding generation, and vector similarity search to enable context-aware question answering using a local LLM (DeepSeek-R1). The system uses Whisper for Speech-to-Text (STT) and bge-m3 for embedding generation, creating an efficient offline RAG workflow. 
 Everything runs locally using [Ollama](https://ollama.com/) models, so there’s no cloud dependency.
 
 Here’s roughly what happens:
